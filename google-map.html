@@ -299,6 +299,15 @@ The `google-map` element renders a Google Map.
       language: {
         type: String
       },
+      
+      /**
+       * The localized country related assets to load the Maps API with. 
+       *
+       * Note: the most obvious case is for Google maps chinese version to apply the legal under http://www.google.cn/maps
+       */
+      country: {
+        type: String
+      },
 
       /**
        * When true, map *click events are automatically registered.
